@@ -1,0 +1,28 @@
+.column{
+float: left;
+width: 33.33%;
+
+}
+
+.topnav{
+    background-color: #333;
+}
+
+.navul{
+    list-style: none;
+    margin: 0;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navli{
+    text-align: center;
+    
+}
+.navli a{
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
