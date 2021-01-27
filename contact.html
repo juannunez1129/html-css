@@ -2,10 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Juan Nunez" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <!--Font Links Section-->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <!--CSS Links Section-->
+    <link rel="stylesheet" href="index.css">
+    <title>Contact Information</title>
 </head>
 <body>
+    <header>
+        <nav class="topnav">
+            <ul class="navul">             
+                <li class="navli"><a href="index.html">Home</a></li>|
+                <li class="navli"><a href="gallery.html">Gallery</a><li>|
+                <li class="navli"><a href="contact.html">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <center>
+        <h1>Contact me</h1>
+        <p>Please use the form below to get in contact with me.</p>
+        <form action="#">
+        <label for="name">Name:</label>
+        <input type="name" name="name" id="name" placeholder="First and last name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Your Email address">
+        <br>
+        <label for="regarding">Regarding:</label>
+        <br>
+        <input type="checkbox" id="hobby1" name="hobby1" value="hunting">
+        <label for="hobby1">Hunting</label>
+        <input type="checkbox" id="hobby2" name="hobby2" value="fishing">
+        <label for="hobby2">Fishing</label>
+        <input type="checkbox" id="hobby3" name="hobby3" value="hiking">
+        <label for="hobby3">Hiking</label>
+        <br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br>
+        <button type="submit">Submit</button>
+        </form>
+        </center>
+    </main>
+    <div class="reset"></div>
+        <br>
+
+    <footer>
+
+        <div class="footernav">
     
+                <ul class="footerul">
+                        <li class="footerli"><a href="https://www.linkedin.com/in/juannunez1129" target="_blank">LinkdIn</a></li>
+                        <!--Porfolio is offline need to find a new hosting site-->
+                        <li class="footerli"><a href="#">Porfolio</a></li>
+                        <li class="footerli"><a href="images/JuanNunezResume.pdf" target="_blank">Resume</a></li>    
+                </ul>
+        </div>
+    </footer>
 </body>
 </html>
